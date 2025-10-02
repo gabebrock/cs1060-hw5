@@ -41,7 +41,7 @@ In your `README.md` file, include a section on the model names you attempted the
 
 ## Use Generative AI to Prototype a Simple Penetration Tester (25 points)
 
-Download the hw5_server repository from https://github.com/cs1060f25/hw5_server Links to an external site.. When you are ready to test your program, run `ssh_server.py` and `http_server.py` to create vulnerable services.
+Download the hw5_server repository from https://github.com/cs1060f25/hw5_server. When you are ready to test your program, run `ssh_server.py` and `http_server.py` to create vulnerable services.
 
 Create a new, private GitHub repository in the cs1060f25 organization. It should be in the format `<username>-hw5`, as before. You do not need to fork or use the public hw5_server repository template for your homework. If you decide it's easier than making a new one, you can—but use it as a template.
 
@@ -57,7 +57,7 @@ Using Generative AI, build a Python program called `vulnerability_scanner.py`:
     }
     ```
 
-- If it successfully connects, your program should print the protocol, user/password, host, and port using RFC 3986 syntax, followed by one space and whatever the server outputs. (Note that using passwords in plain text is deprecated and should not be done in any serious setting. Links to an external site.) The supplied servers currently output the string "success." Our grading scripts will output other strings. Examples might be (assuming an HTTP server on port 8080 outputting "success", and an SSH server on port 2222 outputting "schwartz"):
+- If it successfully connects, your program should print the protocol, user/password, host, and port using RFC 3986 syntax, followed by one space and whatever the server outputs. (Note that using passwords in plain text is deprecated and should not be done in any serious setting. ) The supplied servers currently output the string "success." Our grading scripts will output other strings. Examples might be (assuming an HTTP server on port 8080 outputting "success", and an SSH server on port 2222 outputting "schwartz"):
 
     ```
     http://admin:admin@127.0.0.1:8080 success
