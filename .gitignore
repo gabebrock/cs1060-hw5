@@ -1,1 +1,36 @@
-/hw5-env
+# Ignore python bytecode
+*.pyc
+
+# Ignore virtualenv directories
+*.env
+env
+venv
+hw5-env
+
+# Ignore IDE files
+*.iml
+.idea
+.pycharm_proxies
+.vscode
+
+# Ignore logs
+*.log
+
+# Ignore database files
+*.db
+*.sqlite3
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.swo
+*.cache
+*.lock
+*.pid
+
+# Ignore auto-generated files
+__pycache__/
